@@ -1,0 +1,119 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup label {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.formGroup textarea {
+    resize: none;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.formGroup textarea:focus {
+    outline: 2px solid #bb86fc;
+}
+
+.submitButton {
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #9b4dca, #4b0082); /* Gradient from purple to indigo */
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease-in-out;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submitButton:hover {
+    background: linear-gradient(90deg, #4b0082, #3700b3); /* Gradient shift on hover */
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.submitButton:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(90deg, #3700b3, #4b0082); /* Adjusted gradient on active */
+}
+
+.submitButton:disabled {
+	background: #4b0082;
+	cursor: not-allowed; 
+	color: white;
+	box-shadow: none;
+	transform: none;
+}
+
+.logoutButton {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff4040;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoutButton:hover {
+    background-color: #f50057;
+    transform: scale(1.05);
+}
+
+.logoutButton:active {
+    transform: scale(0.98);
+    background-color: #c51162;
+}
+
+.footerText footer {
+    font-size: 0.75rem;
+	color:#999
+}
+
+.footerText a {
+    color:#9b4dca;
+}
+
+.fileInput {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    color: #fff;
+    cursor: pointer;
+}
