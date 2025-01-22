@@ -96,7 +96,7 @@ export default function Home() {
 
       if (response.ok) {
         setSubmissionStatus(
-          `<p>You will either hear back from the developer shortly or receive a confirmation email from <strong>team@kyvrixon.dev</strong> within the next 24 hours depending on your situation.<br /><br /><i><strong>Note:</strong> The email will be sent to the address associated with your account (${session.user.profile.email}). Please keep a copy of your reference number below for your records.</i><br /><br /><strong>Reference Code:</strong> ${session.user.profile.code}</p>`
+          `<p>You will receive an email from <strong>team@kyvrixon.dev</strong> within the next 24h on the status of your verification!<br /><br /><i><strong>Note:</strong> The email will be sent to the address associated with your account (${session.user.profile.email}). Please keep a copy of your reference number below for your records. Please check your spam and junk folders for our email if it doesn't appear in your inbox within 24h</i><br /><br /><strong>Reference Code:</strong> ${session.user.profile.code}</p>`
         );
       } else {
         setSubmissionStatus(`Something went wrong: Request failed.`);
