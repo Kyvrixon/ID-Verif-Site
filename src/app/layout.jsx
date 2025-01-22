@@ -11,14 +11,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta charSet="UTF-8" />
-        <title>Kyvrixon ID Verification</title>
+        <title>Kyvrixon Development ID Verification</title>
 
         <meta property="og:title" content="ID Verification" />
         <meta property="og:description" content="Verify your identity here" />
         <meta property="og:url" content="https://id-verify.kyvrixon.dev" />
         <meta property="og:image" content="https://api.kyvrixon.dev/ky.png" />
         <meta property="og:type" content="website" />
-        <meta property="og:author" content="© Kyvrixon Development 2025" />
+        <meta property="og:author" content="© 2025 Kyvrixon Development" />
 
         <meta name="description" content="Verify your identity here" />
         <meta name="author" content="Kyvrixon Development" />
